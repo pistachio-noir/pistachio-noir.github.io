@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Pistachio Noir: the shell's floating bar, with its workspace dots and the active one in pistachio, on the green-black tile (Theme colours) -->
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="#15170F" stroke="#39412A" stroke-width="4"/>
+  <rect x="36" y="98" width="184" height="60" rx="30" fill="#2A2F1F" stroke="#39412A" stroke-width="4"/>
+  <circle cx="76" cy="128" r="10" fill="#A3B08F"/>
+  <circle cx="106" cy="128" r="10" fill="#A3B08F"/>
+  <rect x="130" y="114" width="72" height="28" rx="14" fill="#9FD88A"/>
+</svg>

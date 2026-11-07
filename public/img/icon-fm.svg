@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Pistachio FM: a folder (clay, FM's folder colour) with a pistachio "go" badge, on the suite's green-black tile
+       (Theme colours), drawn like pistachio-notes' icon -->
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="#1D2016" stroke="#39412A" stroke-width="4"/>
+  <path d="M44 76a18 18 0 0 1 18-18h40a18 18 0 0 1 14 7l10 13h68a18 18 0 0 1 18 18v84a18 18 0 0 1-18 18H62a18 18 0 0 1-18-18z" fill="#39412A"/>
+  <rect x="44" y="96" width="168" height="102" rx="18" fill="#2A2F1F"/>
+  <line x1="70" y1="124" x2="132" y2="124" stroke="#D9975A" stroke-width="12" stroke-linecap="round"/>
+  <line x1="70" y1="152" x2="110" y2="152" stroke="#A3B08F" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="182" cy="186" r="44" fill="#9FD88A" stroke="#1D2016" stroke-width="8"/>
+  <path d="M164 186h34M184 172l14 14-14 14" fill="none" stroke="#15170F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

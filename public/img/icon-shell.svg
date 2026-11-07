@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Pistachio Shell: a desktop with two windows and the floating bar, with a pistachio launcher badge, on the suite's green-black tile (Theme colours) -->
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="#1D2016" stroke="#39412A" stroke-width="4"/>
+  <rect x="44" y="44" width="168" height="132" rx="22" fill="#2A2F1F"/>
+  <rect x="62" y="62" width="70" height="42" rx="12" fill="#39412A"/>
+  <rect x="140" y="62" width="54" height="42" rx="12" fill="#39412A"/>
+  <rect x="62" y="116" width="96" height="24" rx="12" fill="#15170F"/>
+  <circle cx="80" cy="128" r="5" fill="#A3B08F"/>
+  <circle cx="96" cy="128" r="5" fill="#A3B08F"/>
+  <rect x="110" y="123" width="36" height="10" rx="5" fill="#F6F8EF"/>
+  <circle cx="182" cy="186" r="44" fill="#9FD88A" stroke="#1D2016" stroke-width="8"/>
+  <g fill="none" stroke="#15170F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="178" cy="182" r="12"/>
+    <path d="M187 191l12 12"/>
+  </g>
+</svg>

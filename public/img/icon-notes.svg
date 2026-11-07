@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <!-- Pistachio Notes: a note page with a pistachio check, on the suite's green-black tile (Theme colours) -->
+  <rect x="8" y="8" width="240" height="240" rx="56" fill="#1D2016" stroke="#39412A" stroke-width="4"/>
+  <rect x="60" y="40" width="132" height="172" rx="22" fill="#2A2F1F"/>
+  <line x1="86" y1="80" x2="160" y2="80" stroke="#F6F8EF" stroke-width="13" stroke-linecap="round"/>
+  <g stroke="#A3B08F" stroke-width="10" stroke-linecap="round">
+    <line x1="86" y1="112" x2="166" y2="112"/>
+    <line x1="86" y1="140" x2="146" y2="140"/>
+    <line x1="86" y1="168" x2="122" y2="168"/>
+  </g>
+  <circle cx="182" cy="186" r="44" fill="#9FD88A" stroke="#1D2016" stroke-width="8"/>
+  <path d="M162 187 l13 13 l27 -29" fill="none" stroke="#15170F" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
