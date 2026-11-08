@@ -18,11 +18,14 @@
 
   <div class="feats">
     <Feat title="A bar that gets out of the way">A floating pill with workspaces, the focused window, the clock and a status chip. It hides while a window overlaps it. Point at the bottom edge to bring it back.</Feat>
-    <Feat title="A launcher that does sums">Fuzzy search over apps, windows, workspaces and Bluetooth devices. Type <code>12*(3+4)</code> for an answer, <code>:fire</code> for emoji, <code>$btop</code> to run a command and <code>/</code> to find files.</Feat>
+    <Feat title="A launcher that does sums">Fuzzy search over apps, windows, workspaces and Bluetooth devices. Type <code>12*(3+4)</code> for an answer, <code>:fire</code> for emoji, <code>$btop</code> to run a command, <code>/</code> to find files, <code>kill firefox</code> to end a program and <code>tldr tar</code> for examples. Your recent CLion projects and Steam games turn up as you type their names.</Feat>
     <Feat title="Notifications with a calendar">The shell is the notification daemon. Toasts appear above the bar, history survives restarts, and a month calendar and the weather sit beside the centre.</Feat>
     <Feat title="Quick settings">Tiles for Ethernet, Bluetooth, Do not disturb and Night light. Sliders for volume, microphone and brightness. What is playing, with its controls.</Feat>
     <Feat title="A lock screen that tells little">It checks your password through PAM over a blurred still of the desktop. It shows how many notifications you missed, never what they say.</Feat>
     <Feat title="Screenshots that copy text">Drag out a region, a window or the screen. Or drag over some words and the shell reads them and copies them.</Feat>
+    <Feat title="Record the screen, pick a colour">The same menu records an area or the whole screen, with the sound that is playing, and shows a red dot and the time on the bar until you stop. Colour copies the hex of any pixel you click.</Feat>
+    <Feat title="A mixer for every app">A volume slider for each app that is playing sound, those on your workspace first. Click an app's icon to mute it.</Feat>
+    <Feat title="Tabbed workspaces">Right-click a workspace and its windows gather into one group under Hyprland's own tab bar, drawn as pistachio pills with the shown tab in green. Click a tab to show it, middle-click to close it. Your Hyprland config stays untouched.</Feat>
   </div>
 
   <div class="login">

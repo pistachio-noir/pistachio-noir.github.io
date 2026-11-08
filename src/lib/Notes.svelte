@@ -28,8 +28,8 @@
     <Feat title="Edit, split or preview">The preview draws tables, task boxes, code blocks and quotes as you type, and in Split view it follows your cursor. Double-click anything in it to fix it on the spot.</Feat>
     <Feat title="Checkboxes with a legend">Left-click ticks a box. Right-click opens your own legend: <code>[+]</code> yes, <code>[-]</code> no, <code>[?]</code> don't know, <code>[+?]</code> talk it through first, <code>[+-]</code> later.</Feat>
     <Feat title="Saves itself, safely">Notes save two seconds after you stop typing, through a temporary file that then replaces the note. If another app changes the open note, a banner offers Reload or Keep mine.</Feat>
-    <Feat title="Links and images">A link to another note opens it in the app. Images load from the note's folder and never from the web.</Feat>
-    <Feat title="Export to PDF"><kbd>Ctrl Shift E</kbd> writes an A4 PDF next to the note, images included. It prints on white, not in Noir.</Feat>
+    <Feat title="Links, images and PDF">A link to another note opens it in the app. Images load from the note's folder, never from the web. <kbd>Ctrl Shift E</kbd> writes an A4 PDF next to the note, on white rather than Noir.</Feat>
+    <Feat title="Vim motions, if you want them">Off until you switch them on in Settings. Esc enters Normal mode, with <code>h j k l w b e 0 $ gg G</code> to move, <code>i a I A o O</code> to type, and <code>x dd u</code> and <kbd>Ctrl R</kbd>. The status bar says NORMAL or INSERT, and line numbers count from your cursor.</Feat>
   </div>
 
   <p class="fact">Built on Qt 6 and QML. Markdown is parsed by md4c, and code blocks are coloured by KDE's KSyntaxHighlighting.</p>
