@@ -6,6 +6,7 @@
   import Editor from './lib/Editor.svelte';
   import Notes from './lib/Notes.svelte';
   import DevCentre from './lib/DevCentre.svelte';
+  import Why from './lib/Why.svelte';
   import Footer from './lib/Footer.svelte';
   import Bar from './lib/Bar.svelte';
 
@@ -31,6 +32,7 @@
   <Notes />
   <DevCentre />
 </main>
+<Why />
 <Footer />
 <Bar {sections} />
 

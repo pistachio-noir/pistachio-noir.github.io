@@ -5,9 +5,9 @@
 
   const keys = [
     ['Ctrl O', 'Open a file'],
-    ['Ctrl S', 'Save, or Save as for a new file'],
+    ['Ctrl S', 'Save (or Save as, for a new file)'],
     ['Ctrl F', 'Find in the file'],
-    ['Ctrl G', 'Go to a line'],
+    ['Ctrl G', 'Jump to a line'],
     ['Ctrl wheel', 'Zoom the text'],
   ];
 </script>
@@ -27,7 +27,7 @@
     </div>
     <div class="copy">
       <AppHead icon="icon-text.svg" id="text-h" title="Pistachio Text">
-        A small text and code editor. One file at a time, line numbers, and syntax colours for every language KDE's KSyntaxHighlighting knows.
+        A small text and code editor. One file at a time, line numbers, and syntax colours for every language KDE's KSyntaxHighlighting knows about. No tabs, no drama.
       </AppHead>
       <div class="list">
         <div class="feat">
@@ -39,8 +39,8 @@
             {/each}
           </dl>
         </div>
-        <Feat title="Open and Save as match the shell">Both are cards of the editor's own. Type to filter the files, or type a path starting with <code>/</code> or <code>~</code> and press Enter.</Feat>
-        <Feat title="It keeps what you wrote">Enter keeps the line's indent, and Tab types the file's own indent. Line endings stay as they were. A file that is not UTF-8 text, or is over 10 MB, is refused with a note in the status bar.</Feat>
+        <Feat title="Open and Save as match the shell">Both are the editor's own cards, not some boring stock dialog. Type to filter the files, or type a path starting with <code>/</code> or <code>~</code> and hit Enter.</Feat>
+        <Feat title="It keeps what you wrote">Enter keeps the line's indent, and Tab types the file's own indent. Line endings stay as they were. Anything that isn't UTF-8 text, or is over 10 MB, gets turned down with a note in the status bar. It's a small editor, remember.</Feat>
       </div>
     </div>
   </div>

@@ -18,22 +18,22 @@
 
 <section class="panel" id="pdc" aria-labelledby="pdc-h">
   <AppHead icon="icon-pdc.svg" id="pdc-h" title="Pistachio Dev Centre" status="In development">
-    A native workbench for running several Claude Code sessions side by side. Each session gets its own git worktree, and an embedded Neovim, a terminal dock and Git live in the same window.
+    A native workbench for running several Claude Code sessions side by side. Each session gets its own git worktree, and Neovim, a terminal dock and Git all live in the same window. No more tab juggling.
   </AppHead>
 
   <Shot
     class="board"
     src="pdc-main.webp" w={2200} h={1375}
     alt="A design board of the PDC window: projects and sessions in a sidebar, a Neovim buffer in the middle, an agent conversation with a plan on the right, and a terminal and an agent jobs list along the bottom."
-    caption="A design board for the main window, the contract the app is being built to. Sessions on the left, Neovim in the middle, the agent on the right, terminal and agent jobs below. The names in it are made up."
+    caption="A design board of the main window, what the app is being built to match. Sessions on the left, Neovim in the middle, the agent on the right, terminal and jobs underneath. Every name in it is made up."
   />
 
   <div class="approval">
     <div class="list">
-      <Feat title="Approvals you can read">When a session wants to run a command, a dialog shows the exact command, the directory, the branch and why it needs approval. Allow once, always allow here, or deny. Nothing is ever allowed by a timeout.</Feat>
-      <Feat title="Safe by default">Every session runs in its own worktree. A project must be trusted before Claude starts in it, and the hook server listens on localhost only.</Feat>
-      <Feat title="Never locked in">Anything the Claude Code terminal UI can do stays within reach. A session can be handed to a real <code>claude --resume</code> in a terminal pane at any moment.</Feat>
-      <Feat title="Native, and Linux only">Qt 6 and QML over a C++20 core, with no web view. The terminal and Neovim share one cell-grid renderer.</Feat>
+      <Feat title="Approvals you can read">When a session wants to run a command, a dialog shows you the exact command, the directory, the branch and why it's asking. Allow once, always allow here, or deny. Ignore it and nothing happens: it never turns into a yes by itself.</Feat>
+      <Feat title="Safe by default">Every session runs in its own worktree. A project has to be trusted before Claude starts in it, and the hook server only listens on localhost. Boring, but good.</Feat>
+      <Feat title="Never locked in">Anything the Claude Code terminal UI can do is still within reach. You can hand a session over to a real <code>claude --resume</code> in a terminal pane whenever you like.</Feat>
+      <Feat title="Native, and Linux only">Qt 6 and QML over a C++20 core, and no web view hiding in there, so no Electron. The terminal and Neovim share one cell-grid renderer.</Feat>
     </div>
     <Shot
       src="pdc-approval.webp" w={1800} h={1125}

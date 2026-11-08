@@ -8,7 +8,7 @@
 
 <section class="panel" id="notes" aria-labelledby="notes-h">
   <AppHead icon="icon-notes.svg" id="notes-h" title="Pistachio Notes">
-    Markdown notes kept as plain files. Pick a folder, and its subfolders become chapters.
+    Markdown notes kept as plain files. Pick a folder and its subfolders become chapters. That's pretty much the whole idea.
   </AppHead>
 
   <div class="demo" use:reveal>
@@ -21,18 +21,18 @@
       alt="A right-click menu on a checkbox, listing Open, Done, Yes / works, No / doesn't work, Don't know, Talk it through first and Later."
     >
   </div>
-  <p class="caption">Split view: the note's Markdown on the left, the preview on the right. Right-click a checkbox and the legend opens. The notes in it are made up.</p>
+  <p class="caption">Split view: Markdown on the left, preview on the right. Right-click a checkbox and the legend pops up. The notes are made up, don't get excited.</p>
 
   <div class="feats">
-    <Feat title="Plain files, your folder">Your notes are <code>.md</code> files in one folder you pick, and nothing else is written there. Subfolders are chapters, sorted by name with numbers counted as numbers, so a <code>01</code> prefix sets the order.</Feat>
-    <Feat title="Edit, split or preview">The preview draws tables, task boxes, code blocks and quotes as you type, and in Split view it follows your cursor. Double-click anything in it to fix it on the spot.</Feat>
-    <Feat title="Checkboxes with a legend">Left-click ticks a box. Right-click opens your own legend: <code>[+]</code> yes, <code>[-]</code> no, <code>[?]</code> don't know, <code>[+?]</code> talk it through first, <code>[+-]</code> later.</Feat>
-    <Feat title="Saves itself, safely">Notes save two seconds after you stop typing, through a temporary file that then replaces the note. If another app changes the open note, a banner offers Reload or Keep mine.</Feat>
-    <Feat title="Links, images and PDF">A link to another note opens it in the app. Images load from the note's folder, never from the web. <kbd>Ctrl Shift E</kbd> writes an A4 PDF next to the note, on white rather than Noir.</Feat>
-    <Feat title="Vim motions, if you want them">Off until you switch them on in Settings. Esc enters Normal mode, with <code>h j k l w b e 0 $ gg G</code> to move, <code>i a I A o O</code> to type, and <code>x dd u</code> and <kbd>Ctrl R</kbd>. The status bar says NORMAL or INSERT, and line numbers count from your cursor.</Feat>
+    <Feat title="Plain files, your folder">Your notes are <code>.md</code> files in one folder you pick, and the app writes nothing else in there. Subfolders are chapters, sorted by name with numbers counted as numbers, so a <code>01</code> prefix sets the order.</Feat>
+    <Feat title="Edit, split or preview">The preview draws tables, task boxes, code blocks and quotes while you type, and in Split view it follows your cursor. Spot a typo? Double-click it right in the preview and fix it there.</Feat>
+    <Feat title="Checkboxes with a legend">Left-click ticks a box. Right-click opens a legend I made up: <code>[+]</code> yes, <code>[-]</code> no, <code>[?]</code> don't know, <code>[+?]</code> talk it through first, <code>[+-]</code> later.</Feat>
+    <Feat title="Saves itself, safely">Notes save two seconds after you stop typing, via a temporary file that then replaces the note. If another app changes the note you've got open, a banner asks: Reload or Keep mine.</Feat>
+    <Feat title="Links, images and PDF">Links to other notes open right in the app. Images come from the note's folder, never from the web. <kbd>Ctrl Shift E</kbd> writes an A4 PDF next to the note, on plain white. Noir stays on screen.</Feat>
+    <Feat title="Vim motions, if you want them">Off until you flip the switch in Settings. Esc drops you into Normal mode: <code>h j k l w b e 0 $ gg G</code> to move, <code>i a I A o O</code> to type, plus <code>x dd u</code> and <kbd>Ctrl R</kbd>. Just the basics: no counts, no visual mode. The status bar says NORMAL or INSERT, and line numbers count from your cursor.</Feat>
   </div>
 
-  <p class="fact">Built on Qt 6 and QML. Markdown is parsed by md4c, and code blocks are coloured by KDE's KSyntaxHighlighting.</p>
+  <p class="fact">Built on Qt 6 and QML. md4c does the Markdown, and KDE's KSyntaxHighlighting colours the code blocks.</p>
 </section>
 
 <style>
