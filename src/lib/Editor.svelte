@@ -42,6 +42,7 @@
         <Feat title="Open and Save as match the shell">Both are the editor's own cards, not some boring stock dialog. Type to filter the files, or type a path starting with <code>/</code> or <code>~</code> and hit Enter.</Feat>
         <Feat title="It keeps what you wrote">Enter keeps the line's indent, and Tab types the file's own indent. Line endings stay as they were. Anything that isn't UTF-8 text, or is over 10 MB, gets turned down with a note in the status bar. It's a small editor, remember.</Feat>
       </div>
+      <p class="source"><a class="btn" href="https://github.com/pistachio-noir/pistachio-text" rel="noopener">Source code on GitHub</a></p>
     </div>
   </div>
 </section>
@@ -55,6 +56,7 @@
   @media (min-width: 901px) {
     .windows :global(.over .shot.rise:not([data-seen])) { translate: 56px 28px; }
   }
+  .source { margin-top: 40px; }
   dl { display: grid; grid-template-columns: auto 1fr; gap: 12px 20px; align-items: center; margin-top: 8px; }
   dt { white-space: nowrap; }
   dd { color: var(--subtext); font-size: 15px; }
